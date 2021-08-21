@@ -1,7 +1,7 @@
 MinTOTP
 =======
 
-MinTOTP is a minimal TOTP generator written in Python.
+MinTOTP is a minimal TOTP generator which can be run in your command line terminal and has been written in Python.
 
 [![View Source][Source SVG]][src]
 [![MIT License][License SVG]][L]

@@ -76,14 +76,7 @@ We can now run few commands to quickly get started with MinTOTP.
 
 
 ### Command Line Arguments
-
-In order to keep this tool as minimal as possible, it does not come with
-any command line options. In fact, it does not even have the `--help`
-option. It does support a few command line arguments though. Since there
-is no help output from the tool, this section describes the command line
-arguments for this tool.
-
-Here is a synopsis of the command line arguments supported by this tool:
+Here is an overview of the command line arguments supported by this tool:
 
 ```
 mintotp [TIME_STEP [DIGITS [DIGEST]]]

@@ -168,17 +168,7 @@ Here is a list of useful links about this project:
 Source Code
 -----------
 
-The source code in [`mintotp.py`][src] generates TOTP values from a secret key and current time.  
-
-At the heart of the TOTP algorithm lies the HOTP algorithm. HOTP stands for HMAC-based One-Time Password. HMAC stands for Hash-based Message Authentication Code. Here are the relevant RFCs to learn more about these algorithms:
-
-  - [RFC 2104]: HMAC: Keyed-Hashing for Message Authentication
-  - [RFC 4226]: HOTP: An HMAC-Based One-Time Password Algorithm
-  - [RFC 6238]: TOTP: Time-Based One-Time Password Algorithm
-
-[RFC 2104]: https://tools.ietf.org/html/rfc2104
-[RFC 4226]: https://tools.ietf.org/html/rfc4226
-[RFC 6238]: https://tools.ietf.org/html/rfc6238
+The source code in [`mintotp.py`][src] generates TOTP values based on your secret key and the current time.  
 
 License
 -------

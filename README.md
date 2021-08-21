@@ -14,12 +14,12 @@ Contents
 --------
 
 * [Introduction](#introduction)
-* [Source Code](#source-code)
 * [Install](#install)
-  * [From GitHub](#from-github)
-* [Usage](#usage)
+* [Get Started](#get-started)
   * [Command Line Arguments](#command-line-arguments)
+* [Optional](#optional)
 * [Resources](#resources)
+* [Source Code](#source-code)
 * [License](#license)
 
 
@@ -33,19 +33,17 @@ MinTOTP is a Python tool that can be used to generate TOTP (Time-Based One-Time 
 
 This is will allow you to generates a new TOTP values.
 
-Typically you will see these websites ask for you to scan or add a secret key (presented on the screen temporarily) for you to add to an authenticator app (e.g., Google Authenticator) on your mobile device.
+Typically you will see these websites ask for you to scan or add a secret key (presented on the screen temporarily) for you to add to an authenticator app (e.g., Google Authenticator) on your mobile device which you must use to generate TOTP values for the purpose of logging into that account. .
 
 It is powered by the `current time + secret key`  which you will find when you first set up two-factor authentication (2FA) multifactor for websites and services.
 
 This aims on showing you how to generate these OTPs using the command line in your Terminal. 
 
 
-
 Install
 -------
 
 MinTOTP can be used on any system with Python 3.4 or later installed on it. Once installed, we can work the [`mintotp.py`][src] source file directly.
-
 
 
 ###  GitHub
@@ -75,10 +73,7 @@ Once installed and you have tested it is work.
 
 We can now run few commands to quickly get started with MinTOTP.
 
-Usually, the issuer of your account (such as an account on a website or an organization) would also issue a secret key and/or a secret QR code to you which you must use to
-generate TOTP values for the purpose of logging into that account. 
 
-We will focus on using our secret key (base32 key) here.
 
 ### Command Line Arguments
 
@@ -141,7 +136,12 @@ Here are some usage examples of using our Secret Key (Base32 Key) through the co
     <img src="secret4.png" alt="Sample python3 mintotp.py test">
 
 
-### (Optional) Testing that our Secret Key (Base32 Key) aligns with our Authenticator app
+
+Optional
+-----------
+### (Optional) Compare our Secret Key with our Authenticator app
+
+We can compare our Secret Key (Base32 Key) aligns with our Authenticator app.
 
  1. Enter this command:
 

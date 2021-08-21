@@ -74,7 +74,6 @@ Once installed and you have tested it is work.
 We can now run few commands to quickly get started with MinTOTP.
 
 
-
 ### Command Line Arguments
 Here is an overview of the command line arguments supported by this tool:
 
@@ -113,7 +112,7 @@ Here are some usage examples of using our Secret Key (Base32 Key) through the co
     ```
     <img src="secret2.png" alt="Sample python3 mintotp.py test">
 
- 2. Generate 8-digit TOTP value:
+ 2. Generate 8-digit TOTP value (notice the 8 digit characters):
 
     ```shell
     python3 mintotp.py 60 8 <<< DYGGYE5FOAGW5ML7LRWUL4WTZLNJAMZS
@@ -162,8 +161,8 @@ Resources
 Here is a list of useful links about this project:
 
   - [Documentation](https://github.com/vulongtran/mintotp#readme)
-  - [Main python script - minitotp.py](https://github.com/vulongtran/mintotp/blob/master/mintotp.py)
-  - [Original MinTOTP Source code](https://github.com/susam/mintotp)
+  - [Main python script - minitotp.py](https://github.com/vulongtran/mintotp/blob/master/mintotp.py) - this is where the main python script we are using sits. 
+  - [Original MinTOTP Source code](https://github.com/susam/mintotp) - the original developer source code with other functions, such as QR codes if you prefer to use that.
 
 
 Source Code
